@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:news_app/model/article.dart';
 import 'package:http/http.dart' as http;
 
-String apiKey = '8d6778489ba64d629a6b983b544cba88';
+String apiKey = ''; //Cari API di web newsapi.org
 String baseUrl = 'https://newsapi.org/v2';
 
 class News {
